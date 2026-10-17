@@ -1,4 +1,4 @@
 interface:
   display_name: "Readable"
-  short_description: "Clarify physics arguments while preserving scientific scope"
-  default_prompt: "使用 $readable-physics-writing，在我指定的范围内先判断阅读障碍与修改利弊，再让物理论文的问题、机制和论证更容易理解；保留科学结论与专业表达。"
+  short_description: "以初读理解为首要门槛，重建物理论文的动机、衔接与证据层级"
+  default_prompt: "使用 $readable-physics-writing，在我指定的范围内，以首次阅读能否顺着理解为首要门槛，检查并修复物理论文的动机、衔接和正文取舍；必要时重组全文，同时保留科学主张、证据与适用条件。"
